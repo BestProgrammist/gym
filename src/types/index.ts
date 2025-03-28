@@ -11,6 +11,7 @@ export interface ITask {
 	startTime: number
 	endTime: number
 	userId: string
+	totalTime: number
 	status: ITaskStatus
 }
 
